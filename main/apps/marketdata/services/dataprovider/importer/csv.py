@@ -1,5 +1,8 @@
 import logging
-from main.apps.marketdata.models import FXSpot
+
+logger = logging.getLogger(__name__)
+
+
 class CsvImporter:
 
     def import_csv(self):
